@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Cloud Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- TERMINAL HEADER -->
+  <header class="site-header">
+    <div class="terminal-bar">
+      <span class="dot dot-red"></span>
+      <span class="dot dot-yellow"></span>
+      <span class="dot dot-green"></span>
+      <span class="terminal-path">~/resume</span>
+    </div>
+
+    <div class="header-content">
+      <div class="header-text">
+        <p class="header-eyebrow">Cloud Engineer</p>
+        <h1 class="header-name">Your Name</h1>
+        <p class="header-tagline">Building resilient, serverless infrastructure on AWS.</p>
+
+        <div class="contact-links">
+          <a href="mailto:you@email.com" class="contact-item">
+            <span class="contact-icon">✉</span> you@email.com
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" class="contact-item" target="_blank">
+            <span class="contact-icon">in</span> LinkedIn
+          </a>
+          <a href="https://github.com/yourusername" class="contact-item" target="_blank">
+            <span class="contact-icon">gh</span> GitHub
+          </a>
+          <span class="contact-item">
+            <span class="contact-icon">📍</span> City, State
+          </span>
+        </div>
+      </div>
+
+      <div class="visitor-card" id="visitor-card">
+        <p class="visitor-label">site visitors</p>
+        <p class="visitor-count" id="visitor-count">
+          <span class="count-value" id="count-value">—</span>
+        </p>
+        <p class="visitor-sub" id="visitor-status">fetching count…</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- SUMMARY -->
+    <section class="section" id="summary">
+      <h2 class="section-label">Summary</h2>
+      <p class="summary-text">
+        Cloud engineer with hands-on experience designing and deploying serverless applications on AWS.
+        Comfortable across the full stack — from IaC with Terraform to frontend with HTML/CSS/JS.
+        Passionate about automation, cloud-native architecture, and eliminating toil.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2 class="section-label">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="skill-group-title">Cloud & Infrastructure</h3>
+          <ul class="skill-list">
+            <li>AWS (S3, Lambda, DynamoDB, CloudFront, Route 53, API Gateway, IAM)</li>
+            <li>Terraform · AWS SAM · CloudFormation</li>
+            <li>CI/CD with GitHub Actions</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Languages</h3>
+          <ul class="skill-list">
+            <li>Python · Bash</li>
+            <li>HTML · CSS · JavaScript</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">Practices</h3>
+          <ul class="skill-list">
+            <li>Serverless architecture</li>
+            <li>Infrastructure as Code</li>
+            <li>Linux · Networking basics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <h2 class="section-label">Certifications</h2>
+      <div class="cert-list">
+        <div class="cert-item">
+          <div class="cert-badge">AWS</div>
+          <div class="cert-info">
+            <p class="cert-name">AWS Certified Cloud Practitioner</p>
+            <p class="cert-date">Month Year</p>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge">AWS</div>
+          <div class="cert-info">
+            <p class="cert-name">AWS Certified Solutions Architect – Associate</p>
+            <p class="cert-date">Month Year</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h2 class="section-label">Projects</h2>
+
+      <div class="project-card featured">
+        <div class="project-header">
+          <div>
+            <span class="project-tag">Featured</span>
+            <h3 class="project-title">Cloud Resume Challenge</h3>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/cloud-resume" class="project-link" target="_blank">GitHub →</a>
+            <a href="#" class="project-link">Live →</a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Serverless resume website hosted on AWS. Features a real-time visitor counter backed by
+          API Gateway, Lambda, and DynamoDB. Deployed via Terraform and automated with GitHub Actions CI/CD.
+        </p>
+        <div class="tech-tags">
+          <span class="tech-tag">S3</span>
+          <span class="tech-tag">CloudFront</span>
+          <span class="tech-tag">Route 53</span>
+          <span class="tech-tag">API Gateway</span>
+          <span class="tech-tag">Lambda</span>
+          <span class="tech-tag">DynamoDB</span>
+          <span class="tech-tag">Terraform</span>
+          <span class="tech-tag">GitHub Actions</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3 class="project-title">Another Project</h3>
+          <a href="#" class="project-link" target="_blank">GitHub →</a>
+        </div>
+        <p class="project-desc">
+          Brief description of what it does and the problem it solves. Keep it to 1–2 sentences.
+        </p>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">AWS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <h2 class="section-label">Experience</h2>
+
+      <div class="job">
+        <div class="job-meta">
+          <div>
+            <h3 class="job-title">Job Title</h3>
+            <p class="job-company">Company Name · City, ST</p>
+          </div>
+          <span class="job-dates">Month Year – Present</span>
+        </div>
+        <ul class="job-bullets">
+          <li>Accomplishment framed as impact — what you did, what changed, by how much.</li>
+          <li>Led migration of X service to serverless architecture, reducing costs by 40%.</li>
+          <li>Built CI/CD pipeline using GitHub Actions, cutting deploy time from 30 min to 4 min.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-meta">
+          <div>
+            <h3 class="job-title">Previous Role</h3>
+            <p class="job-company">Company Name · City, ST</p>
+          </div>
+          <span class="job-dates">Month Year – Month Year</span>
+        </div>
+        <ul class="job-bullets">
+          <li>What you built or improved, with measurable outcome.</li>
+          <li>Another bullet demonstrating cloud or infrastructure skills.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <h2 class="section-label">Education</h2>
+      <div class="edu-item">
+        <div class="edu-meta">
+          <div>
+            <h3 class="edu-degree">Degree Name</h3>
+            <p class="edu-school">University Name</p>
+          </div>
+          <span class="job-dates">Year – Year</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">
+      Built with HTML, CSS &amp; JS · Hosted on AWS S3 + CloudFront
+      · <a href="https://github.com/yourusername/cloud-resume" class="footer-link" target="_blank">View source</a>
+    </p>
+  </footer>
+
+  <script src="counter.js"></script>
+</body>
+</html>
